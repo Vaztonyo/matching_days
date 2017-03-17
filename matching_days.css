@@ -1,0 +1,20 @@
+body{
+  margin: auto;
+  background-image: url(http://sinisterintentions.net/wp-content/uploads/2016/12/download_hd_christmas__new_year_2017_bible_verse_greetings_card_2.jpg);
+}
+
+table, th, td{
+border-collapse: collapse;
+border: 5px double lime;
+}
+
+table{
+background-color: silver;
+color: black;
+}
+
+th, td{
+ height: 50px;
+ width: 80px;
+ text-align: center;
+}
