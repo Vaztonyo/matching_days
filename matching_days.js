@@ -2,6 +2,7 @@ var day1 = document.querySelector('.date1');
 var day2 = document.querySelector('.date2');
 var myButton = document.querySelector('.myButton');
 var table = document.querySelectorAll('.days');
+var clearButton = document.querySelector('.clearButton')
 
 var getThatDay = function(date) {
     var whatDay = date.getDay();
@@ -17,4 +18,16 @@ myButton.addEventListener('click', function() {
         table[getThatDay(theDay1)].classList.add('day1');
         table[getThatDay(theDay2)].classList.add('day2');
     }
+
+    clearButton.addEventListener('click', function(){
+        table[getThatDay(theDay1)].classList.remove('match');
+        table[getThatDay(theDay1)].classList.remove('day1');
+        table[getThatDay(theDay2)].classList.remove('day2');
+    });
 });
+
+// clearButton.addEventListener('click', function(){
+//     table[getThatDay(theDay1)].classList.remove('match');
+//     table[getThatDay(theDay1)].classList.remove('day1');
+//     table[getThatDay(theDay2)].classList.remove('day2');
+// });
