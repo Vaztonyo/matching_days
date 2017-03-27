@@ -1,20 +1,50 @@
-body{
-  margin: auto;
-  background-image: url(http://sinisterintentions.net/wp-content/uploads/2016/12/download_hd_christmas__new_year_2017_bible_verse_greetings_card_2.jpg);
+body {
+    margin: auto;
+    background-image: url(http://wallpaper-gallery.net/images/cool-video-game-wallpapers/cool-video-game-wallpapers-0.jpg);
 }
 
-table, th, td{
-border-collapse: collapse;
-border: 5px double lime;
+h1 {
+    color: lime;
+    font-size: 40px;
 }
 
-table{
-background-color: silver;
-color: black;
+table, td {
+    border-collapse: collapse;
+    border: 5px double lime;
 }
 
-th, td{
- height: 50px;
- width: 80px;
- text-align: center;
+table {
+    background-color: black;
+    color: white;
+}
+
+td {
+    height: 50px;
+    width: 80px;
+    text-align: center;
+}
+
+.myButton {
+    border: double;
+    border-width: thick;
+    border-color: dodgerblue;
+    border-radius: 15%;
+    width: auto;
+    background-color: lightblue;
+}
+
+.match {
+    background-color: limegreen;
+}
+
+.day1 {
+    background-color: dodgerblue;
+}
+
+.day2 {
+    background-color: red;
+}
+
+.dateInput {
+    color: lime;
 }
