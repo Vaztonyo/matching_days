@@ -1,6 +1,6 @@
 body {
     margin: auto;
-    background-image: url(http://wallpaper-gallery.net/images/cool-video-game-wallpapers/cool-video-game-wallpapers-0.jpg);
+    background-image: url(http://i.imgur.com/WwqqPWD.gif);
     background-size: cover;
 }
 
@@ -26,36 +26,43 @@ td {
     text-align: center;
 }
 
-.myButton {
-    border: double;
-    border-width: thick;
-    border-color: dodgerblue;
-    border-radius: 15%;
-    width: auto;
-    background-color: lightblue;
-}
-
-.clearButton{
-    border: double;
-    border-width: thick;
-    border-color: dodgerblue;
-    border-radius: 15%;
-    width: auto;
-    background-color: lightblue;
-}
-
 .match {
     background-color: limegreen;
 }
 
 .day1 {
-    background-color: dodgerblue;
+    background-color: red;
 }
 
 .day2 {
-    background-color: red;
+    background-color: dodgerblue;
 }
 
 .dateInput {
   font-size: 20px;
+  color: white;
+  word-wrap: normal;
+  padding-left: 25px;
+  padding-top: 20px;
 }
+
+.date1{
+  border: double;
+  border-width: thick;
+  border-color: dodgerblue;
+  /*border-radius: 15%;*/
+  color: red;
+  padding: 5px;
+}
+
+.date2{
+  border: double;
+  border-width: thick;
+  border-color: red;
+  /*border-radius: 15%;*/
+  color: dodgerblue;
+  padding: 5px;
+}
+/*footer{
+  color: white;
+}*/
