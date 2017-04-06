@@ -1,7 +1,11 @@
+html{
+  height: 100%;
+  background-image: url(http://i.imgur.com/WwqqPWD.gif);
+  background-size: cover;
+}
+
 body {
     margin: auto;
-    background-image: url(http://i.imgur.com/WwqqPWD.gif);
-    background-size: cover;
 }
 
 h1 {
